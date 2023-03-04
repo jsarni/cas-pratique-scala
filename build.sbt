@@ -10,8 +10,7 @@ homepage := Some(url("https://github.com/jsarni/cas-pratique-scala"))
 // Dependencies
 val scalaTest = "org.scalatest" %% "scalatest" % "3.2.7" % Test
 
-lazy val tp1Scala = (project in file("."))
+lazy val casPratiqueScala = (project in file("."))
   .settings(
-    name := "tp1-scala",
     libraryDependencies += scalaTest
   )
