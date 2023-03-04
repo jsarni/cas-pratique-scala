@@ -1,11 +1,11 @@
 scalaVersion := "2.13.10"
 
-name := "tp1-scala"
+name := "cas-pratique-scala"
 
 version := "1.0.0"
 
 organization := "io.github.jsarni"
-homepage := Some(url("https://github.com/jsarni/tp1-scala"))
+homepage := Some(url("https://github.com/jsarni/cas-pratique-scala"))
 
 // Dependencies
 val scalaTest = "org.scalatest" %% "scalatest" % "3.2.7" % Test
